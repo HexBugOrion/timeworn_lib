@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "timewornlib",
+  "version": "${version}",
+
+  "name": "Timeworn Lib",
+  "description": "A Library for the Timeworn development team",
+  "authors": [
+    "VoxelDragon6 (Code)",
+    "PrincessKraehe (Getting me to start work on a non-content mod)",
+    "And all of the little library-like things that me and my friends came up with"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.timeworndevs.Timeworn"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
